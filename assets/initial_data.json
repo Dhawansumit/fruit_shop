@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Banana",
+    "price": 52.0,
+    "image": "assets/banana.jpeg"
+  },
+  {
+    "name": "Apple",
+    "price": 120.0,
+    "image": "assets/apple.jpeg"
+  },
+  {
+    "name": "Kiwi",
+    "price": 30.0,
+    "image": "assets/kiwi.jpeg"
+  },
+  {
+    "name": "Muskmelon",
+    "price": 40.0,
+    "image": "assets/muskmelon.jpeg"
+  },
+  {
+    "name": "Orange",
+    "price": 15.0,
+    "image": "assets/orange.jpeg"
+  },
+  {
+    "name": "Papaya",
+    "price": 60.0,
+    "image": "assets/papaya.jpeg"
+  }
+]
