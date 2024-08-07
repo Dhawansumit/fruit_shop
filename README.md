@@ -1,7 +1,7 @@
- fruit_shop
-
+---
 # 🍏 Fruit Shop - Flutter Shopping App 🍏
 Welcome to the Fruit Shop Flutter application! This app is designed to offer a delightful shopping experience for fruit lovers. Built with a modern approach using Flutter, the app showcases a clean architecture, state management with Provider, and robust navigation with AutoRoute.
+---
 
 ## Features
 **Product Listing**: Browse through a variety of fruits displayed in a grid layout.
