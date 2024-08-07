@@ -86,28 +86,34 @@ The project follows the CLEAN architecture and SOLID principles, ensuring a scal
 **Lists all items in the cart.**
 - Allows updating the quantity and removing items.
 - Displays the total price and includes a "Checkout" button.
-S- hows a thank-you dialog upon checkout and clears the cart.
+- hows a thank-you dialog upon checkout and clears the cart.
 
 **State Management**
+
 **Provider: Used for state management.**
   - CartProvider: Manages the cart items and total price.
   - ProductProvider: Manages the list of products.
+
 **Navigation**
   - AutoRoute: Simplifies navigation and routing within the app.
   - Routes are defined in router.dart.
   - Navigation is handled via the generated router.gr.dart.
+
 **Data Handling**
   - SQFlite: Used for local storage.
   - product_local_data_source.dart: Manages local data operations.
   - Data is initialized from initial_data.json.
+
 **Dependency Injection**
   - GetIt: Used for service location and dependency injection.
   - Services are registered in service_locator.dart.
+
 **UI Components**
   - GridView: Displays products in a grid layout.
   - ListView: Displays cart items in a list.
   - Cards: Used for product and cart item presentation.
   - Dialogs: Used for displaying the checkout confirmation.
+
 **Assets**
   - Images: Product images are stored in the assets directory.
   - JSON: Initial product data is stored in initial_data.json.
